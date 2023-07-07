@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::view('/satu', 'demo_mdb.satu');
+Route::view('/dua', 'demo_mdb.dua');
+Route::view('/kosong', 'demo_mdb.kosong');
